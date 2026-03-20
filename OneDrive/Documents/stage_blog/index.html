@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stageblog – Liam Herman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">StageBlog</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#over-mij">Over mij</a></li>
+      <li><a href="#blogs">Blogs</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <span class="hero-tag">Stageblog 2026</span>
+      <h1>Hallo, ik ben <span class="accent">Liam Herman</span></h1>
+      <p class="hero-sub">Student Digital Experience Design · Stage bij <a href="https://www.aginsurance.be" target="_blank" class="company-link">AG Insurance →</a></p>
+      <a href="#blogs" class="btn-primary">Lees mijn blogs</a>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-frame">
+        <img src="images/foto.jpg" alt="Liam Herman" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo')"/>
+        <div class="photo-placeholder"></div>
+      </div>
+    </div>
+    <div class="hero-bg-text">STAGE</div>
+  </header>
+
+  <!-- OVER MIJ -->
+  <section id="over-mij" class="about-section">
+    <div class="section-label">Over mij</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Wie ben ik?</h2>
+        <p>
+          Ik ben Liam Herman, laatstejaarsstudent Digital Experience Design aan Thomas More. Ik ben iemand die niet snel stilzit: ik zoek liever zelf een oplossing dan te wachten tot iemand er een aanreikt, en ik stel vragen als ik iets niet begrijp.
+        </p>
+        <p>
+          Mijn achtergrond ligt zowel in development als UX. Ik denk vanuit de gebruiker, maar ik weet ook hoe je iets technisch goed in elkaar zet. Tijdens mijn stage bij AG Insurance werk ik aan een gamification project voor My AG, waarbij ik interactieve spelletjes ontwikkel die klanten actiever betrekken bij het platform.
+        </p>
+        <p>
+          Mijn stage loopt van <strong>9 februari</strong> tot <strong>15 mei 2026</strong> bij <a href="https://www.aginsurance.be" target="_blank" class="company-link">AG Insurance</a>.
+        </p>
+      </div>
+      <div class="about-info">
+        <div class="info-card">
+          <span class="info-label">Bedrijf</span>
+          <span class="info-value"><a href="https://www.aginsurance.be" target="_blank">AG Insurance</a></span>
+        </div>
+        <div class="info-card">
+          <span class="info-label">Opleiding</span>
+          <span class="info-value">Digital Experience Design</span>
+        </div>
+        <div class="info-card">
+          <span class="info-label">School</span>
+          <span class="info-value">Thomas More</span>
+        </div>
+        <div class="info-card">
+          <span class="info-label">Begeleider</span>
+          <span class="info-value">Arne De Knijf</span>
+        </div>
+        <div class="info-card">
+          <span class="info-label">Project</span>
+          <span class="info-value">React Native – Gamification</span>
+        </div>
+        <div class="info-card">
+          <span class="info-label">Periode</span>
+          <span class="info-value">9 feb. – 15 mei 2026</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG OVERZICHT -->
+  <section id="blogs" class="blogs-section">
+    <div class="section-label">Alle posts</div>
+    <h2 class="section-title">Mijn blogs</h2>
+
+    <div class="blog-grid" id="blog-grid">
+
+      <a href="blogs/blog1.html" class="blog-card">
+        <div class="blog-card-number">01</div>
+        <div class="blog-card-content">
+          <span class="blog-date">9 – 20 februari 2026</span>
+          <h3>Een sublieme start bij AG Insurance</h3>
+          <p>Kennismaking, React Native opzetten en drie gameconcepten uitwerken. De eerste twee weken vlogen voorbij.</p>
+          <span class="blog-read">Lees meer →</span>
+        </div>
+      </a>
+
+      <a href="blogs/blog2.html" class="blog-card">
+        <div class="blog-card-number">02</div>
+        <div class="blog-card-content">
+          <span class="blog-date">23 februari – 6 maart 2026</span>
+          <h3>Terugkeren, richting vinden en eindelijk bouwen</h3>
+          <p>Na een ziekteweek weer opstarten, groen licht krijgen voor twee gameconcepten en meteen van start gaan.</p>
+          <span class="blog-read">Lees meer →</span>
+        </div>
+      </a>
+
+      <a href="blogs/blog3.html" class="blog-card">
+        <div class="blog-card-number">03</div>
+        <div class="blog-card-content">
+          <span class="blog-date">9 – 20 maart 2026</span>
+          <h3>Schakelen, bijsturen en toch vooruit</h3>
+          <p>Scopewijzigingen, AEM leren kennen en inschrijven als Young IT Pro. Twee weken met veel bijleren.</p>
+          <span class="blog-read">Lees meer →</span>
+        </div>
+      </a>
+
+      <!-- Voeg hier toekomstige blog-cards toe -->
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Liam Herman · Stageblog</p>
+      <p><a href="https://www.aginsurance.be" target="_blank">AG Insurance</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
